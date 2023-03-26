@@ -28,6 +28,7 @@ ol.green{
 }
 TABLE {
     width: 400px;
+    border: 1px solid black;
 }
 TD, TH {
     padding: 3px;
