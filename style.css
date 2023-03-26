@@ -1,0 +1,42 @@
+h1 {
+    color: orange;
+    position: relative;
+    left: 420px;
+    }
+p::first-letter {
+        color:red;
+        font-size: 200%;
+    }
+p > i {
+    background-color: green;
+    color: white;
+}
+h2:first-of-type{
+    color: orange;
+}
+h2:last-of-type{
+    color: blue;
+}
+ol{
+    color:red;
+}
+ol.gray{
+    color: gray;
+}
+ol.green{
+    color:green;
+}
+TABLE {
+    width: 400px;
+}
+TD, TH {
+    padding: 3px;
+    border: 1px solid black;
+   }
+td:first-of-type{
+    color: orange;
+}
+td:not(:first-of-type){
+    background-color: green;
+    color: white;
+}
